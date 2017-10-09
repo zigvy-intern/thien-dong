@@ -2,11 +2,8 @@
   "name": "ThienDong",
   "private": true,
   "scripts": {
-    "start": "meteor run"
-    },
-    "scripts": {
-      "test": "mocha"
-    },
+    "test": "mocha"
+  },
   "dependencies": {
     "babel-runtime": "^6.26.0",
     "domready": "^1.0.8",
