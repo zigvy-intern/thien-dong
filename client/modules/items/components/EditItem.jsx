@@ -13,5 +13,7 @@ const EditItem =({content}) => (
     </Panel>
   </Col>
 
+  
+
 );
 export default EditItem;
