@@ -1,4 +1,5 @@
 import React from 'react';
+import Item from './Item.jsx';
 import { Row, Col } from 'react-bootstrap';
 
 const ItemList = ({content}) => (
