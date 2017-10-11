@@ -6,6 +6,7 @@ import EditItem from '../items/components/EditItem.jsx';
 export default function (injectDeps, {
 FlowRouter }) {
   const MainLayoutCtx = injectDeps(Layout);
+  }
   FlowRouter.route('/edit', {
     name: 'items.edit',
     action() {
@@ -14,4 +15,3 @@ FlowRouter }) {
         });
     }
   });
- }
