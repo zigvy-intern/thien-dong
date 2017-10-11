@@ -25,7 +25,3 @@ export default function (injectDeps, {FlowRouter}) {
     }
   });
 }
-
-/**
-export default function (injectDeps, {FlowRouter}) {
-  const MainLayoutCtx = injectDeps(Layout);
