@@ -29,21 +29,3 @@ export default function (injectDeps, {FlowRouter}) {
 /**
 export default function (injectDeps, {FlowRouter}) {
   const MainLayoutCtx = injectDeps(Layout);
-  FlowRouter.route('/', {
-    name: 'items.list',
-    action() {
-      mount(MainLayoutCtx, {
-        content: () => (<p>Hello</p>)
-        });
-      }
-    });
-  }
-  FlowRouter.route('/edit', {
-    name: 'items.edit',
-    action() {
-      mount(MainLayoutCtx, {
-        content: () => (<EditItem />)
-        });
-      }
-  });
-  **/
