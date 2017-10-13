@@ -26,7 +26,7 @@ export default function (injectDeps, {FlowRouter}) {
       })
     }
   });
-}
+
 
 FlowRouter.route('/register', {
 name: 'users.new',
@@ -36,3 +36,4 @@ content: () => (<NewUser />)
 });
 }
 });
+}
