@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Col, Panel, FormControl, FormGroup, Button, Glyphicon } from 'react-bootstrap';
 import DateTimeField from 'react-bootstrap-datetimepicker';
 const EditItem = ({content}) => (
@@ -7,12 +7,12 @@ const EditItem = ({content}) => (
       <a href="/"><Glyphicon glyph="chevron-left"></Glyphicon> Back To Items </a>
       <h1>Edit Item</h1>
       <form>
-        <FormGroup>
+     
           <FormControl type="text" placeholder="Name" />
           <FormControl type="textarea" placeholder="Description" />
           <DateTimeField />
           <Button bsStyle="primary" type="submit"> Save Item </Button>
-        </FormGroup>
+        
       </form>
     </Panel>
   </Col>
