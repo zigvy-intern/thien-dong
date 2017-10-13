@@ -23,3 +23,5 @@ check
 random
 accounts-base
 kadira:flow-router-ssr
+accounts-password
+msavin:mongol
