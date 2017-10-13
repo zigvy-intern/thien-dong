@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Col, Panel, Input, ButtonInput, Glyphicon } from 'react-bootstrap';
 
 const NewUser = ({content}) => (
@@ -6,9 +6,11 @@ const NewUser = ({content}) => (
 <Panel>
 <h1>Register</h1>
 <form>
-<Input type="email" placeholder="Email" />
-<Input type="password" placeholder="Password" />
-<ButtonInput bsStyle="primary" type="submit" value="Sign Up"/>
+<FormGroup>
+<FormControl type="email" placeholder="Email" />
+<FormControl type="password" placeholder="Password" />
+<Button bsStyle="primary" type="submit" value="Sign Up"/></button>
+</FormGroup>
 </form>
 </Panel>
 </Col>
