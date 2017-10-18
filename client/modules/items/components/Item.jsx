@@ -7,9 +7,6 @@ const Item = ({content}) => (
       <Col xs={10}>
         <h2>Thing to do</h2>
       </Col>
-      <Col xs={2}>
-        <a href="/edit"><Glyphicon glyph="chevron-left"></Glyphicon> Back to Items</a>
-      </Col>
     </Row>
     <Row>
       <Col xs={12}>

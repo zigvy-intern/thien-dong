@@ -8,12 +8,7 @@ const Layout = ({content}) => (
       <PageHeader> Thiên Và Đông </PageHeader>
     </Col>
   </Row>
-  <Row>
-    <Col xs={12} sm={6}>
-      <ItemProgress />
-    </Col>
-  </Row>
-  {content()}
+    {content()}
 </Grid>
 );
 export default Layout;
